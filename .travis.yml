@@ -9,5 +9,5 @@ jobs:
     env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
     before_script: 
     - print("czegokolwiek")
-    - print($ENV_VALUE)
+    - print($PATH)
 script: py.test -v
