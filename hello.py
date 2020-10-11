@@ -12,6 +12,9 @@ def say_what():
 
 def main():
     hello(say_what())
+    ptint("xd")
+    ptint("xdd")
+    ptint("2")
     return 0
 
 
