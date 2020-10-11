@@ -3,4 +3,11 @@ sudo: false
 python:
 - 2.7
 - 3.4
+- 3.8
+jobs:
+  include:
+    env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
+    before_script: 
+    - print("czegokolwiek")
+    - print($ENV_VALUE)
 script: py.test -v
